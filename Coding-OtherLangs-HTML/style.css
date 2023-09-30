@@ -1,0 +1,9 @@
+body{
+
+    background-color: rgb(38, 113, 187);
+
+    #test_para{
+        background-color: rgb(5, 50, 92);
+        color: rgb(255, 255, 255);
+    }
+}
