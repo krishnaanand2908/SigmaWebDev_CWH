@@ -1,0 +1,51 @@
+body {
+    background-color: purple;
+    color: white;
+}
+
+h2 {
+    white-space: pre;
+    font-size: xx-large;
+    display: inline-block;  
+    padding: 10px; 
+          
+}
+
+#pythonkrishna {
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(0, 247, 255);
+    background-image: linear-gradient(to right, blue, rgb(0, 204, 255));
+    border-radius: 50px;
+    
+}
+
+#l-html {
+    color: white;
+    background-image: linear-gradient(to right, orange, rgb(243, 214, 161));
+    
+}
+
+#l-css {
+    color: white;
+    background-image: linear-gradient(to right, cyan, rgb(0, 110, 253));
+}
+
+#l-js {
+    color: white;
+    background-image: linear-gradient(to right, rgb(189, 170, 5), rgb(255, 217, 0));
+}
+
+#l-ts {
+    color: white;
+    background-color: rgb(19, 86, 231);
+}
+
+#l-csharp {
+    color: white;
+    background-color: #9b4993;
+}
+
+#logo{
+    
+}
