@@ -1,21 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Poppins&display=swap');
 
 body {
-    background-image: radial-gradient(#67C4FD,#FFFFFF, #21ABFF);
+    background-color: #bae2ff;
+    transform: scale(0.9);
 }
+
 
 #main_head {
     color: aqua;
     background-color: #0093FF;
     font-family: 'Baloo Bhai 2', sans-serif;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 3vw;
     font-style: italic;
-    text-decoration: underline double;
-    text-decoration-color: aquamarine;
     text-align: center;
-    border: 3px;
+    border: 0.5vw;
     border-style: solid;
     border-radius: 20px;
-    border-color: blue;    
+    border-color: blue;
+}
+
+.loremart>div>p {
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-weight: 500;
+
+}
+
+.loremart>div>h2 {
+    /* text-indent: 10vw; */
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+
+}
+
+#color-table,
+#color-table th,
+#color-table td {
+    border: 2px solid rgb(5, 33, 197);
+
+}
+
+#color-table td {
+    font-weight: 500;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+#color-table th {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.brandhead {
+    text-decoration: underline;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+
+#ytchannellink:hover {
+    color: #0059ff;
+}
+
+#ytchannellink:active {
+    color: #ff0000;
+}
+
+#ytchannellink:visited {
+    color: #378115;
+}
+
+#ytchannellink:link {
+    color: #505353;
 }

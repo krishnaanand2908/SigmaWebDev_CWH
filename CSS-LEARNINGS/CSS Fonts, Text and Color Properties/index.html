@@ -7,33 +7,182 @@
     <title>CSS: Fonts, Text & Color Properties</title>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500&family=Poppins&display=swap');
 
         body {
-            background-image: radial-gradient(#67C4FD, #FFFFFF, #21ABFF);
+            background-color: #bae2ff;
+            transform: scale(0.9);
         }
+
 
         #main_head {
             color: aqua;
             background-color: #0093FF;
             font-family: 'Baloo Bhai 2', sans-serif;
             font-weight: 600;
-            font-size: 40px;
+            font-size: 3vw;
             font-style: italic;
-            text-decoration: underline double;
-            text-decoration-color: aquamarine;
             text-align: center;
-            border: 3px;
+            border: 0.5vw;
             border-style: solid;
             border-radius: 20px;
             border-color: blue;
         }
+
+        .loremart>div>p {
+            font-family: 'Baloo Bhai 2', sans-serif;
+            font-weight: 500;
+
+        }
+
+        .loremart>div>h2 {
+            /* text-indent: 10vw; */
+            font-family: 'Baloo Bhai 2', sans-serif;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+
+        }
+
+        #color-table,
+        #color-table th,
+        #color-table td {
+            border: 2px solid rgb(5, 33, 197);
+            transform: scale(0.9);
+
+        }
+
+        #color-table td {
+            font-weight: 500;
+            font-family: 'Baloo Bhai 2', sans-serif;
+        }
+
+        #color-table th {
+            font-weight: bold;
+            font-size: 19px;
+        }
+
+        .brandhead {
+            text-decoration: underline;
+            font-family: 'Baloo Bhai 2', sans-serif;
+        }
+
+        #ytchannellink:hover {
+            color: #0059ff;
+        }
+
+        #ytchannellink:active {
+            color: #ff0000;
+        }
+
+        #ytchannellink:visited {
+            color: #378115;
+        }
+
+        #ytchannellink:link {
+            color: #505353;
+        }
     </style>
 
 <body>
+
     <div>
         <h1 id="main_head">CSS: Fonts, Text & Color Properties</h1>
     </div>
+
+    <h2 class="uppercase brandhead">Welcome to PythonKrishna Tutions!</h2>
+
+
+    <article class="loremart">
+        <div>
+            <h2 id="loremhead">Lorem 120</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi doloremque nisi magnam vero aperiam
+                earum, cum quis sapiente quibusdam architecto a quae, debitis rerum unde eum officiis distinctio
+                reiciendis suscipit pariatur! Nihil facere aut amet, quisquam fuga provident perferendis ipsa harum vel
+                ex illum? Nemo accusantium aperiam deserunt sunt ut iste quidem modi sapiente unde? Explicabo velit
+                possimus, ipsa maxime temporibus adipisci voluptatem quam, nesciunt minus assumenda dolorum accusamus
+                esse. Doloribus delectus assumenda reprehenderit eos id repudiandae vitae magni, ullam quod quibusdam
+                quae, enim corrupti dignissimos quis ut odit quos perferendis! Voluptatem architecto sit ipsam corporis!
+                Delectus vitae nemo explicabo suscipit laborum porro? Esse voluptate eaque odio a odit hic accusantium
+                commodi numquam necessitatibus quod, quas quisquam delectus enim cum.
+            </p>
+
+        </div>
+        <div class="about-colors">
+            <p>
+                <b>In CSS colors can be represented in the following ways:</b>
+            <table id="color-table">
+                <thead>
+                    <th>Name</th>
+                    <th>Brief Description</th>
+                    <th>Examples</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Color Keywords</td>
+                        <td>Color Keywords are basically the name of the colors.</td>
+                        <td>Red, Aqua, Cyan, Crimson Red, Hot Pink, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>HEX</td>
+                        <td>In this format, we write a pound(#) followed by 6 letters or numbers.</td>
+                        <td>#FFFFFF, #FF0000, #00FFFF, etc.</td>
+                    </tr>
+                    <tr>
+                        <td>RGB</td>
+                        <td>RGB values tells us about how much red, green and blue is in the color (ranging from 0 to
+                            255)
+                        </td>
+                        <td>rgb(0, 0, 0); rgb(255, 255, 255); rgb(0, 100, 100); etc.</td>
+                    </tr>
+                    <tr>
+                        <td>RGBA</td>
+                        <td>RGB along with an aplha value. The aplha value ranges from 0 to 1 and tells us the opacity
+                            of the color.</td>
+                        <td>rgba(0, 0, 0, 1); rgba(255, 255, 255, 0.5); rgba(0, 100, 100, 0); etc.</td>
+                    </tr>
+                    <tr>
+                        <td>HSL</td>
+                        <td>HSL(Hue, Saturation, Lightness) are alternative representations of the RGB color model</td>
+                        <td>hsl(360, 100%, 100%); hsl(30, 70%, 100%); hsl(29, 100%, 60%); etc.</td>
+                    </tr>
+                    <tr>
+                        <td>HSLA</td>
+                        <td>HSL with aplha where alpha ranges between 0 and 1 telling about the opacity of the color,
+                        </td>
+                        <td>hsla(360, 100%, 100%, 1); hsla(30, 70%, 100%, 0.7); hsla(29, 100%, 60%, 0); etc.</td>
+                    </tr>
+                </tbody>
+
+
+
+            </table>
+
+            </p>
+        </div>
+    </article>
+
+    <div>
+        <h3>Some of the videos present on <a id="ytchannellink" target="_blank"
+                href="https://www.youtube.com/@pythonkrishna290">My YouTube Channel</a>:</h3>
+        <div>
+            <iframe id="vid2" width="320" height="180"
+                src="https://www.youtube.com/embed/QQqVKTEfgLo?si=7OcOtin8HGiawOh2" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div>
+            <iframe id="vid3" width="320" height="180"
+                src="https://www.youtube.com/embed/1KvvDFJmKIg?si=TdFEjbxqNOMdhrX_" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+    </div>
+
 </body>
 
 </html>
